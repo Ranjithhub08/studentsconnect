@@ -47,7 +47,7 @@ jobs:
     - name: Copy index-prod.html as index.html
       run: cp index-prod.html index.html
 
-    - name: Copy single file
+    - name: Copy files
       run: |
-          aws s3 cp . s3://${{ env.S3_BUCKET }}/ --recursive --exclude "*" --include "*.html"
+          aws s3 cp . s3://${{ env.S3_BUCKET }}/ --recursive --exclude "*" --include "*.html" --include "images/*"
           echo "Deployment done"

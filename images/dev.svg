@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="200" viewBox="0 0 400 200">
+  <rect width="400" height="200" fill="#1e293b" rx="12"/>
+  <rect x="2" y="2" width="396" height="196" fill="none" stroke="#facc15" stroke-width="2" rx="10"/>
+  <text x="200" y="110" font-family="system-ui, sans-serif" font-size="28" font-weight="700" fill="#facc15" text-anchor="middle">DEVELOPMENT</text>
+  <text x="200" y="140" font-family="system-ui, sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle">Testing Environment</text>
+</svg>
